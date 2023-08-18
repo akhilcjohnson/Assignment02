@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+html {
+    font-size: 10px;
+  }
+.main{
+    font-family: poppins, sans-serif;
+    background-color: #000000;
+  }
+.container1{
+    margin: auto;
+    max-width: 1300px; 
+  }
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+  .logo{
+    display: flex;
+  }
+.name-head{
+    font-size: 3rem;
+    color: #1A47FF;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+@media screen and(min-width:320px){
+    .name-head{
+        display: none;
+    }
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    color: #ffffffff;
+  }
+.nav li {
+	margin: 0 30px;
+}
+.nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+    font-style: normal;
+}
+.btn{
+    display: flex;
+}
+.signin-btn{
+    font-size: 1.2rem;
+    height: 3rem;
+    width: 6rem;
+    border: none;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: .5rem;
+    margin-left: 2rem;
+}
+.signup-btn{
+    font-size: 1.2rem;
+    height: 3rem;
+    width: 6rem;
+    border: none;
+    color: #ffffff;
+    background-color: #1A47FF;
+    border-radius: .5rem;
+    margin-left: 2rem;
+    }
+.content-part{
+    margin-left: 100px;  
+    color: #ffffff;
+}
+.subhead-01, .subhead-02{
+    font-size: 7rem;
+    font-weight: bold;
+    padding: 0 0;
+    height: 80px;
+}
+.para-01{
+    font-size: 1.5rem;
+    width: 700px;
+    padding: 40px 0;
+}
+.btn-01{
+    display: flex;
+    margin-left: 100px;
+    padding-bottom: 3rem;
+}
+.account-btn{
+    font-size: 1.5rem;
+    height: 5rem;
+    width: 18rem;
+    border: none;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    margin-right: 3rem;
+}
+.demo-btn{
+    font-size: 1.5rem;
+    height: 5rem;
+    width: 18rem;
+    border: none;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 1rem;
+    border: 1px solid #ffffff;
+    }
