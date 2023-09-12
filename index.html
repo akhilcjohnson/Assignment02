@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="main">
+        <div class="main-cointainer">
         <div class="container01">
             <header>
                 <div class="logo-band">
@@ -85,32 +86,32 @@
                 <div class="para-03"> Lorem ipsum dolor sit amet consectetur. Ornare tellus sagittis sit id. Volutpat morbi neque nulla sed vitae laoreet dui vel. Euismod nisl volutpat lectus quis ultrices semper netus aenean nisl. Augue sapien eu tristique turpis luctus morbi molestie.</div>
             </div>
             <div class="boxtype-images">
-                <div class="boxtype-01">
+                <div class="boxtype">
                     <img src="images/advertise.svg" alt="imag02" class="imag02">
-                    <div class="advertise-box">
-                    <div class="advertise">Advertising</div> 
-                    <div class="advertise-para"> Design and auto-generate images for all your digital advertising formats at once.</div>
+                    <div class="contentimg-div">
+                    <div class="heading-div">Advertising</div> 
+                    <div class="boxtype-para"> Design and auto-generate images for all your digital advertising formats at once.</div>
                     </div>
                 </div>
-                <div class="boxtype-02">
+                <div class="boxtype">
                     <img src="images/social.svg" alt="imag03" class="imag03">
-                    <div class="social-box">
-                    <div class="social">Social content</div> 
-                    <div class="social-para"> Better engage with your communities by generating social media and blog images automatically.</div>
+                    <div class="contentimg-div">
+                    <div class="heading-div">Social content</div> 
+                    <div class="boxtype-para"> Better engage with your communities by generating social media and blog images automatically.</div>
                     </div>
                 </div>
-                <div class="boxtype-03">
+                <div class="boxtype" id="boxtype-03">
                     <img src="images/marketing.svg" alt="imag04" class="imag04">
-                    <div class="marketing-box">
-                    <div class="marketing">Email Marketing</div> 
-                    <div class="marketing-para"> Send more engaging marketing e-mails faster than before.</div>
+                    <div class="contentimg-div">
+                    <div class="heading-div">Email Marketing</div> 
+                    <div class="boxtype-para" id="marketing-para"> Send more engaging marketing e-mails faster than before.</div>
                     </div>
                 </div>
-                <div class="boxtype-04">
+                <div class="boxtype" id="boxtype-04">
                     <img src="images/personalize.svg" alt="imag05" class="imag05">
-                    <div class="personalize-box">
-                    <div class="personalize">Personalized images</div> 
-                    <div class="personalize-para"> Deliver tailor-made dynamic images to all your recipients, automatically.</div>
+                    <div  class="contentimg-div" id="personalize-box">
+                    <div class="heading-div">Personalized images</div> 
+                    <div class="boxtype-para"> Deliver tailor-made dynamic images to all your recipients, automatically.</div>
                     </div>
                 </div>
             </div>
@@ -122,80 +123,76 @@
                         <img src="images/shoes-image.svg" alt="shoes"   class="shoes">
                     </div>
                     <div class="sub-flexbox-03">
-                        <div class="blue-head">
+                        <div class="blue-head" id="flexbox-id">
                             For marketing teams
                         </div>
-                        <div class="scale-head">
+                        <div class="scale-head"id="flexbox-id" >
                             Scale visual marketing
                         </div>
-                        <div class="scale-para">
+                        <div class="scale-para" id="flexbox-id">
                             Lorem ipsum dolor sit amet consectetur. Porttitor a enim vitae sollicitudin adipiscing ut ut at. Tellus turpis pretium lectus in cras in purus sem adipiscing. Aenean elit convallis sit gravida facilisi dignissim non.
                         </div>
                         <div class="link-arw">
-                        <div class="blue-link">
-                            Abyssale for marketing
+                            <div class="blue-link" id="flexbox-id">
+                                Abyssale for marketing
+                            </div>
+                            <img src="images/1arrow.svg" class="arw"  id="arw02">
                         </div>
-                        <img src="images/1arrow.svg" class="arw"  id="arw02">
-                    </div>
                     </div>
                 </div>
             </div>
                 <div class="contact-head">Contact Us</div>
-        <div class="container03">
-            <div class="formcontainer">
-                <div class="sub-container031">
-                    <div class="form-details01">
-                        <input class="typing-field" type="text" id="name" name="dname" placeholder ="First Name *">
-                        <div class="uline"> </div>
-                        <input class="typing-field" type="number" id="number" name="number" placeholder ="Phone Number *">
-                        <div class="uline"> </div>
-                        <input class="typing-field" type="text" id="countryname" name="countryname" placeholder ="Country *">
-                        <div class="uline"> </div>
-                        <div class="zip-city">
-                            <div class="zip-01">
-                                <input class="typing-field01" type="number" id="number" name="number" placeholder ="Zip Code *">
-                                <div class="uline-01"> </div>
+                <div class="container03">
+                    <div class="formcontainer">
+                            <div class="form-details01">
+                                <input class="typing-field" type="text" id="name" name="dname" placeholder ="First Name *">
+                                <div class="uline"> </div>
+                                <input class="typing-field" type="number" id="number" name="number" placeholder ="Phone Number *">
+                                <div class="uline"> </div>
+                                <input class="typing-field" type="text" id="countryname" name="countryname" placeholder ="Country *">
+                                <div class="uline"> </div>
+                                <div class="zip-city">
+                                    <div class="zip-01">
+                                        <input class="typing-field01" type="text" id="number" name="number" placeholder ="Zip Code *">
+                                        <div class="uline-01"> </div>
+                                    </div>
+                                    <div class="zip-02">
+                                        <input class="typing-field01" type="text" id="name" name="cityname" placeholder ="City *">
+                                        <div class="uline-01"> </div>
+                                    </div>
+                                </div>
+                                <input class="typing-field" type="text" id="question" name="question" placeholder ="How did you hear about this?">
+                                <div class="uline"> </div>
+                                <div class="radio-input">
+                                    <label for="likes">Do you like Editing:</label>
+                                </div>
+                                <div class="radiotype-cont">
+                                    <div class="radio-type">
+                                        <input type="radio" class="radio-type" id="option" value="Yes" checked>
+                                        <label for="radio" class="new">Yes</label>
+                                        <input type="radio" class="radio-type" id="option" value="No">
+                                        <label for="radio"class="new" > No </label>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="zip-02">
-                                <input class="typing-field01" type="text" id="name" name="cityname" placeholder ="City *">
-                                <div class="uline-01"> </div>
-                            </div>
-                        </div>
-                        <input class="typing-field" type="text" id="question" name="question" placeholder ="How did you hear about this?">
-                        <div class="uline"> </div>
-                        <div class="radio-input">
-                            <label for="likes">Do you like Editing:</label>
-                        </div>
-                        <div class="radiotype-cont">
-                            <div class="radio-type">
-                                <input type="radio" class="radio-type" id="option" value="Yes" checked>
-                                <label for="radio" class="new">Yes</label>
-                                <input type="radio" class="radio-type" id="option" value="No">
-                                <label for="radio"class="new" > No </label>
-                            </div>
-                        </div>
+                            <div class="form-details02">
+                                <input class="typing-field" type="text" id="name" name="dname" placeholder ="Last Name *">
+                                <div class="uline"></div>
+                                <input class="typing-field" type="email" id="email" name="email" placeholder ="Email *">
+                                <div class="uline"></div>
+                                <input class="typing-field" type="text" id="name" name="dname" placeholder ="State *">
+                                <div class="uline"></div>
+                                <label for= "Message " class="message-head">Description</label>
+                                <div class="message-div">
+                                     <textarea class="message" name="message" ></textarea>
+                                </div>
+                                <div class="btn-02">
+                                    <button class="send-btn">Send</button>
+                                    <button class="cancel-btn">Cancel</button>
+                                </div>
+                            </div>  
                     </div>
                 </div>
-                <div class="sub-container032">
-                    <div class="form-details02">
-                        <input class="typing-field" type="text" id="name" name="dname" placeholder ="Last Name *">
-                        <div class="uline"></div>
-                        <input class="typing-field" type="email" id="email" name="email" placeholder ="Email *">
-                        <div class="uline"></div>
-                        <input class="typing-field" type="text" id="name" name="dname" placeholder ="State *">
-                        <div class="uline"></div>
-                        <label for= "Message " class="message-head">Description</label>
-                        <div class="message-div">
-                             <textarea class="message" name="message" ></textarea>
-                        </div>
-                        <div class="btn-02">
-                            <button class="send-btn">Send</button>
-                            <button class="cancel-btn">Cancel</button>
-                        </div>
-                    </div>  
-                </div> 
-            </div>
-        </div>
         <div class="container-04">
              <div class="container-body">
                 <div class="subhead-41">
@@ -261,7 +258,7 @@
 
 
         </div>
-
+    </div>
     </div>
 </body>
 </html
